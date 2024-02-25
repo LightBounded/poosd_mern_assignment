@@ -138,7 +138,7 @@ function SearchCardsForm({
           ))}
         </ul>
       ) : (
-        <p>No cards found</p>
+        <p className="mb-4">No cards found</p>
       )}
     </>
   );
